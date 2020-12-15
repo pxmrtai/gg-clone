@@ -1,0 +1,36 @@
+.container {
+  float: right;
+
+  margin-bottom: 10px;
+  width: 100%
+}
+.container .container-small{
+  float: right;
+  display: flex;
+  align-items: center;
+
+}
+.container .container-small .gmail {
+  padding: 10px;
+  cursor: pointer;
+}
+.container .container-small .photo {
+  padding: 10px;
+  cursor: pointer;
+
+}
+.container .container-small .logo-menu {
+  padding: 10px;
+  cursor: pointer;
+
+}
+.container .container-small .avatar {
+  padding: 10px;
+  cursor: pointer;
+
+}
+.container .container-small .avatar img{
+ border-radius: 50%;
+
+}
+

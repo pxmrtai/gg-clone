@@ -1,0 +1,38 @@
+.container-footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #f2f2f2;
+  font-size: 0.8rem;
+  color:rgba(0,0,0,.54);
+
+}
+.container-footer .viet-nam{
+  border: 1px solid #bababa;
+text-align: left;
+}
+.container-footer .viet-nam p{
+  margin-left: 20px;
+}
+.container-footer .ending{
+  border: 1px solid #bababa;
+  border-top: none;
+  display: flex;
+  justify-content: space-between
+
+}
+.container-footer .ending .ending-left{
+  display: flex;
+  float: left;
+  
+}
+.container-footer .ending  .link{
+padding:13px;
+color: rgba(0,0,0,.54);
+text-decoration: none;
+}
+.container-footer .ending .ending-right{
+  display: flex;
+  float: right;
+}

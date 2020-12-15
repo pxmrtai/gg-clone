@@ -1,0 +1,66 @@
+.container {
+  margin: 0px 0 0px 0;
+  width: 100%;
+
+}
+.container .logo-gg {
+  width: auto;
+}
+.container .wrapper {
+  border: 1px solid #dfe1e5;
+  width: 80%;
+  margin: auto;
+  border-radius: 50px;
+  display: flex;
+  padding: 10px;
+  align-items: center; 
+  margin:10px auto 30px auto;
+}
+.container .wrapper:hover{
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+.container .wrapper .search-logo{
+  width: 5%;
+
+}
+.container .wrapper input{
+  width: 85%;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+
+.container .wrapper .type-text{
+  width: 10%;
+}
+.container .wrapper .microphone{
+  width: 10%;
+}
+
+.container .small-container{
+  width: 100%;
+
+
+}
+.container .small-container .gg-search{
+  color:black;
+  padding: 10px;
+  margin: 10px;
+ background-color: #f8f9fa;
+}
+.container .small-container .gg-search:hover{
+  border: 1px solid #bababa;
+  border-radius: 5px;
+}
+.container .text{
+margin: 30px auto ;
+width: 100%;
+}
+
+.container .text a{
+margin: 5px;
+text-decoration:none;
+}
+.container .text a:hover{
+  text-decoration: underline;
+}
